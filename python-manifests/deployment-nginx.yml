@@ -22,7 +22,7 @@ spec:
         app: nginx
     spec:
       containers:
-      - image: nginx-alpine:latest
+      - image: nginx:alpine
         imagePullPolicy: IfNotPresent
         name: nginx-alpine
         resources:
